@@ -115,19 +115,49 @@ a {
 
 .features-item>p {
     color: #4D5053;
-        text-align: center;
-        font-size: 22px;
-        line-height: 1.50;
-        letter-spacing: 0.22px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.50;
+    letter-spacing: 0.22px;
 }
 /* =====project=====*/
-.project {}
+.project {
+    display: flex;
+    margin-bottom: 100px;
+}
 
-.wrap {}
+.project-title {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    line-height: 1.30;
+    letter-spacing: 0.22px;
+    margin-bottom: 42px;
+}
 
-.project-title {}
+.project-text {
+    color: #4D5053;
+    font-size: 22px;
+    line-height: 1.50;
+    letter-spacing: 0.22px;
+    max-width: 531px;
+    margin-bottom: 183px;
+}
 
-.project-text {}
+.project button {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.50;
+    letter-spacing: 0.72px;
+    border-radius: 18px;
+    background-color: #292F36;
+    padding: 22px 50px;
+}
+
+.project img {
+    border-radius: 0px 326px 0 px 123px;
+    margin-left: 77px;
+}
 /* =====brand=====*/
 .brand {}
 
