@@ -159,9 +159,19 @@ a {
     margin-left: 77px;
 }
 /* =====brand=====*/
-.brand {}
+.brand {
+    border-radius: 25px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, #F4F0EC 0%, #F4F0EC 100%), #FFF;
+}
 
-.brand-list {}
+.brand-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px 0;
+    margin-bottom: 113px;
+}
 
 .brand-item {}
 /* =====projects=====*/
