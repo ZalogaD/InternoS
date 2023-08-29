@@ -54,6 +54,7 @@ a {
     overflow: hidden;
     padding-left: 120px;
     padding-top: 188px;
+    margin-bottom: 112px;
 }
 
 .bunner-title {
@@ -83,11 +84,42 @@ a {
     padding: 22px 51px;
 }
 /* =====features=====*/
-.features {}
+.features {
+    background-color: #F4F0EC;
+    padding: 75px 0 70px;
+    border-radius: 25px;
+    margin-bottom: 183px;
+}
 
-.features-list {}
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 104px;
+}
 
-.features-item {}
+.features-item {
+    flex-basis: calc((100% - 3 * 103px) / 3);
+}
+
+.features-item>h3 {
+    color: #292F36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    line-height: 1.56;
+    letter-spacing: 0.22px;
+    margin-bottom: 12px;
+}
+
+.features-item>p {
+    color: #4D5053;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.50;
+        letter-spacing: 0.22px;
+}
 /* =====project=====*/
 .project {}
 
