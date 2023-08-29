@@ -1,0 +1,92 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+
+/* =====header=====*/
+.header{
+    display: flex;
+    height: 62px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {}
+
+.nav-list {
+    display: flex;
+    
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.57;
+        letter-spacing: 0.4px;
+}
+
+.nav-list a{
+    color: #292f36;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-item:hover a {
+    color: #cda274;
+}
+/* =====bunner=====*/
+.bunner {}
+
+.bunner-title {}
+
+.bunner-text {}
+
+.bunner-btn {}
+/* =====features=====*/
+.features {}
+
+.features-list {}
+
+.features-item {}
+/* =====project=====*/
+.project {}
+
+.wrap {}
+
+.project-title {}
+
+.project-text {}
+/* =====brand=====*/
+.brand {}
+
+.brand-list {}
+
+.brand-item {}
+/* =====projects=====*/
+.projects {}
+
+.projects-title {}
+
+.projects-text {}
+
+.projects-list {}
+
+.projects-item {}
+/* =====footer=====*/
+.footer {}
+
+.footer-info {}
+
+.footer-logo {}
+
+.footer-text {}
+/* =====project=====*/
+.social-list {}
+
+.social-item {}
+
+.footer-copyright {}
